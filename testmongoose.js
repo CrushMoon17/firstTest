@@ -4,8 +4,7 @@ const schema={
     name:String,
     age:Number,
     health:String,
-    hobby:String,
-    sex:String
+    hobby:String
 }
 
 const mydata = mongoose.model('cats', schema);
